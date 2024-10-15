@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    text-decoration-line: overline;
+  
+  }
+  
+body {
+  background-color: burlywood;
+}
+
+
+ /* Estilos del menú */
+ nav {
+  background-color: #55c740 ;
+  padding: 10px;
+  border-radius: 20px;
+}
+nav ul {
+  display: flex; /* Usar flexbox */
+  justify-content: space-around; /* Espacio igual entre los elementos */
+  list-style-type: none; /* Quitar los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Asegurar que ocupa todo el ancho */
+}
+nav ul li a {
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quitar subrayado */
+  padding: 10px 15px; /* Espaciado alrededor del texto */
+}
+nav ul li a:hover {
+  background-color:#539039; /* Fondo al pasar el ratón */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
